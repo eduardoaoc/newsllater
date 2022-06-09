@@ -5,9 +5,9 @@
 # About the Project
 O projeto se basea em um cadastro para um newsllater, no qual é necessário a pessoa preencher os campos para que ela comece a receber notícias sobre programação através de seu email. 
 ## Layout 
-![Layout App]() 
+![Layout App](https://github.com/eduardoaoc/newsllater/blob/main/static/newsllater.PNG) 
 
-![Layout App]()
+![Layout App](https://github.com/eduardoaoc/newsllater/blob/main/static/register-confirm.PNG)
 
 
 # Technology used
