@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Familjen Grotesk', sans-serif;;
+}
+
+body *{
+    box-sizing: border-box;
+
+}
+
+
+.main-register{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(21, 19, 19);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+.left-register{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.left-register > h1{
+    font-size: 1.4vw;
+    color: #e3e3e3;
+}
+
+.left-register-img{
+    width: 35vw;
+}
+
+
+.right-register{
+    width: 75vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.card-register{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px 30px;
+    background: rgb(45, 66, 99);
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #30303056;
+}
+
+.card-register > h1{
+    color: #ffffff; 
+    font-weight: 800;
+    margin: 0;
+}
+
+.textfield{
+    width: 100%;
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.textfield > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    background: rgb(200, 75, 49);
+    color: #ffffff;
+    box-shadow: 0px 3px 5px rgb(232, 249, 253);
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield > label{
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+}
+
+.textfield > input::placeholder{
+    color: rgb(255, 253, 253);
+}
+
+.btn-confirmar{
+    width: 60%;
+    padding: 16px 0px;
+    border: none;
+    margin: 15px;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #ffffff;
+    background: rgb(200, 75, 49);
+    cursor: pointer;
+    box-shadow: 0px 5px 10px rgb(232, 249, 253);
+}
+
+@media only screen and (max-width: 950px){
+    .card-register{
+        width: 85%;
+
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .main-register{
+        flex-direction: column;   
+    }
+    .left-register{
+        display: none;
+    }
+    .left-register{
+        width: 100%;
+        height: auto;
+    }
+    .right-register{
+        width: 100%;
+        height: auto;
+    }
+    .left-register-img{
+        width: 50vh;
+    }
+
+    .card-register{
+        width: 90%;
+    }    
+}
