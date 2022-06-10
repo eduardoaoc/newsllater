@@ -9,7 +9,7 @@ O projeto se basea em um cadastro para um newslleter, no qual é necessário a p
 
 ![Layout App](https://github.com/eduardoaoc/newsllater/blob/main/assets/newsllater.PNG) 
 ## Caso há campos a ser preenchidos.
-![Layout App]()
+![Layout App](https://github.com/eduardoaoc/newsllater-api/blob/main/assets/error-box.PNG)
 ![Layout App](https://github.com/eduardoaoc/newsllater/blob/main/assets/register-confirm.PNG)
 
 
