@@ -3,15 +3,13 @@
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/eduardoaoc/newsllater/blob/main/LICENSE) 
 
 # About the Project
-<<<<<<< HEAD
 O projeto se basea em um cadastro para um newslleter, no qual é necessário a pessoa preencher os campos para que ela comece a receber notícias sobre programação através de seu email. 
-## Layout 
-=======
-O projeto se basea em um cadastro para um newsllater, no qual é necessário a pessoa preencher os campos para que ela comece a receber notícias sobre programação através de seu email. 
-## Layout - Responsive
->>>>>>> 1847a5acf9065ae61f165a285aae956ed37e7ae9
-![Layout App](https://github.com/eduardoaoc/newsllater/blob/main/assets/newsllater.PNG) 
 
+## Layout - Responsive
+
+![Layout App](https://github.com/eduardoaoc/newsllater/blob/main/assets/newsllater.PNG) 
+## Caso há campos a ser preenchidos.
+![Layout App]()
 ![Layout App](https://github.com/eduardoaoc/newsllater/blob/main/assets/register-confirm.PNG)
 
 
