@@ -1,9 +1,9 @@
-# Website/Api - Newsllater
+# Website/Api - Newslleter
 
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/eduardoaoc/newsllater/blob/main/LICENSE) 
 
 # About the Project
-O projeto se basea em um cadastro para um newsllater, no qual é necessário a pessoa preencher os campos para que ela comece a receber notícias sobre programação através de seu email. 
+O projeto se basea em um cadastro para um newslleter, no qual é necessário a pessoa preencher os campos para que ela comece a receber notícias sobre programação através de seu email. 
 ## Layout 
 ![Layout App](https://github.com/eduardoaoc/newsllater/blob/main/assets/newsllater.PNG) 
 

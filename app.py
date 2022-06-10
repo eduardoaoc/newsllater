@@ -25,8 +25,8 @@ def confirmar():
         email= request.form['email']
         senha= request.form['senha']       
         #print(nome, contato, email, senha)    
-        if nome == '' or email == '':
-            return render_template('indexx.html')
+        if nome == '' or email == '' or contato == '' :
+            return render_template('indexx.html', message='Faltam campos a ser preenchidos')
         if db.session.query(User).filter(User.nome==nome).count() == 0:
             data= User(nome, contato, email, senha)
             db.session.add(data)

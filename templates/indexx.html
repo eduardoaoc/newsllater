@@ -17,6 +17,9 @@
             <div class="right-register">
                 <div class="card-register">
                     <h1>Newsletter</h1>
+                    {% if message %}
+                        <p class="message">{{ message | safe}}</p>
+                    {% endif %} 
                 <div class="textfield">
                     <label for="nome">Name:</label>
                     <input type="text" name="nome" placeholder="Nome completo.">
